@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Ellinopoula
   subtitle: Greek for kids - online learning platform
-  thumbnail: /assets/img/portfolio/ellinopoula.jpg
+  thumbnail: assets/img/portfolio/ellinopoula.jpg
 
 #what displays when the item is clicked:
 title: Ellinopoula
