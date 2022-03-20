@@ -7,7 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: Ellinopoula
 subtitle: Greek for kids - online learning platform
-image: /assets/img/portfolio/ellinopoula.jpg #main image, can be a link or a file in assets/img/portfolio
+image: assets/img/portfolio/ellinopoula.jpg #main image, can be a link or a file in assets/img/portfolio
 link: 'https://www.ellinopoula.com'
 alt: Ellinopoula logo
 
