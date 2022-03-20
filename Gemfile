@@ -2,6 +2,13 @@
 source "https://rubygems.org"
 gemspec
 
-# Delete the following lines if not on Windows: 
+# Delete the following lines if not on Windows:
 # Performance-booster for watching directories on Windows
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
+gem "jekyll-remote-theme", "~> 0.4.3"
+gem "webrick", "~> 1.7"
+
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.6"
+  # gem "github-pages" # https://github.com/github/pages-gem
+end

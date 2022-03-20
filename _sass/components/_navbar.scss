@@ -46,7 +46,8 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    // background-color: transparent;
+    background-color: rgba(0,0,0,0.7);
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;

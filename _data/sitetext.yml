@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Welcome to Nerion
+    text: You dream it, we develop IT
+    button: Learn More
     buttonlink: "#services"
 
   services:
@@ -32,7 +32,7 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "Projects"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
@@ -70,8 +70,9 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: ""
+    body: "Nerion is all about passion. Passion for work, passion for creating. We are a mixture of experience with creativity, attention to detail and strong academic and business background, combined with our eagerness to deliver high quality products. This makes us a perfect fit for different clients, organizations and corporations that trust us to deliver bleeding edge technology solutions for various projects.
+           <br/>When the sun is rising, the nerium flowers are magnificently stretching to reach the sun. Likewise, all of us at Nerion code are trying to do our best every day to reach our goal: deliver high quality, bleeding edge technology solutions to our clients. We combine different technologies and stacks, with our strong academic background being what distinguishes us from our competitors. We are very proud and full of passion about what we do. That is, after all, what Nerion is all about."
     section: about
 
   clients:
@@ -93,41 +94,43 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
+    title: "OUR TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
+      - name: "Vassilis Vassilakis"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/vassilakis.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/vassilis-vassilakis/
             icon: fab fa-linkedin-in
+          - url: https://github.com/vassilisb
+            icon: fab fa-github
+      - name: "Orfeas Menis - Mastromichalakis"
+        role: "Back-end Developer"
+        image: assets/img/team/menis.jpg
+        social:
+          - url: https://www.linkedin.com/in/orfeasmenis/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/orfeas-menis
+            icon: fab fa-github
+      - name: "Panagiotis Tzortzis"
+        role: "Back-end Developer"
+        image: assets/img/team/tzortzis.jpg
+        social:
+          - url: https://www.linkedin.com/in/panagiotis-tzortzis/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/tzortzispanagiotis
+            icon: fab fa-github
+      - name: "Spyros Bekiaris"
+        role: "Front-end Developer"
+        image: assets/img/team/bekiaris.jpg
+        social:
+          - url: https://www.linkedin.com/in/spyros-bekiaris-743644230/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/spyrosbek
+            icon: fab fa-github
 
   contact:
     title: "Contact Us"
@@ -147,16 +150,10 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/company/ner1on/about/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/Nerion-Code
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
