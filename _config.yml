@@ -24,6 +24,7 @@ author     : Nerion
 logo:     #optional, defaults to site title
   path: assets\img\logo.png
   height: 70 #height in px, defaults to 52px
+  absolutePath: "https://nerion-code.github.io/nerion-website/assets/img/logo.png"
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
