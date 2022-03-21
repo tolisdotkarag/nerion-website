@@ -22,11 +22,11 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "Software Development"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        # desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         # icon: fas fa-laptop-code #find more at https://fontawesome.com/icons
         image: "assets/img/icons/coding.png"
       - title: "Machine Learning Solutions"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        # desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         # icon: fas fa-laptop
         image: "assets/img/icons/machine-learning.png"
       # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
@@ -98,7 +98,7 @@ en: &DEFAULT_EN
   team:
     title: "OUR TEAM"
     text: ""
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       - name: "Vassilis Vassilakis"
