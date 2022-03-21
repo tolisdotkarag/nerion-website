@@ -18,24 +18,26 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: ""
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Software Development"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        # icon: fas fa-laptop-code #find more at https://fontawesome.com/icons
+        image: "assets/img/icons/coding.png"
+      - title: "Machine Learning Solutions"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        # icon: fas fa-laptop
+        image: "assets/img/icons/machine-learning.png"
+      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #   desc: "Your description here, full **Markdown** support"
+      #   icon: fab fa-markdown
 
   portfolio:
-    title: "Projects"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Projects & Clients"
+    text: ""
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Visit Project"
 
   timeline:
     title: "Timeline"
@@ -95,20 +97,20 @@ en: &DEFAULT_EN
 
   team:
     title: "OUR TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: ""
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       - name: "Vassilis Vassilakis"
-        role: "Lead Developer"
+        role: "Senior Software Engineer<br/>Lead Developer"
         image: assets/img/team/vassilakis.jpg
         social:
           - url: https://www.linkedin.com/in/vassilis-vassilakis/
             icon: fab fa-linkedin-in
           - url: https://github.com/vassilisb
             icon: fab fa-github
-      - name: "Orfeas Menis - Mastromichalakis"
-        role: "Back-end Developer"
+      - name: "Orfeas Menis"
+        role: "Machine Learning Engineer<br/>Back-end Developer"
         image: assets/img/team/menis.jpg
         social:
           - url: https://www.linkedin.com/in/orfeasmenis/
@@ -116,7 +118,7 @@ en: &DEFAULT_EN
           - url: https://github.com/orfeas-menis
             icon: fab fa-github
       - name: "Panagiotis Tzortzis"
-        role: "Back-end Developer"
+        role: "DevOps Engineer<br/>Back-end Developer"
         image: assets/img/team/tzortzis.jpg
         social:
           - url: https://www.linkedin.com/in/panagiotis-tzortzis/
@@ -124,7 +126,7 @@ en: &DEFAULT_EN
           - url: https://github.com/tzortzispanagiotis
             icon: fab fa-github
       - name: "Spyros Bekiaris"
-        role: "Front-end Developer"
+        role: "Mid Software Engineer<br/>Front-end Developer"
         image: assets/img/team/bekiaris.jpg
         social:
           - url: https://www.linkedin.com/in/spyros-bekiaris-743644230/
@@ -134,7 +136,6 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."

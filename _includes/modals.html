@@ -19,9 +19,7 @@
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <a href="{{ project.link }}" target="_blank">
-                <h2 class="text-uppercase">{{ project.title }}</h2>
-              </a>
+              <h2 class="text-uppercase">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
               <img
                 class="img-fluid d-block mx-auto"
@@ -29,15 +27,15 @@
                 alt="{{ project.alt }}"
               />
               <p>{{ project.content }}</p>
-              <button
+              <a
                 class="btn btn-primary"
-                data-dismiss="modal"
                 type="button"
+                href="{{ project.link }}"
+                target="_blank"
               >
-                <i class="fas fa-times"></i>
-                {{ site.data.sitetext[site.locale].portfolio.closebutton |
-                default: "Close Project" }}
-              </button>
+                {{ site.data.sitetext[site.locale].portfolio.closebutton | default: "Close Project" }}
+                <i class="ml-2 fas fa-external-link-alt"></i>
+              </a>
             </div>
           </div>
         </div>
