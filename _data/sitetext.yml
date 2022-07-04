@@ -133,6 +133,14 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/spyrosbek
             icon: fab fa-github
+      - name: "Apostolis Karageorgopoulos"
+        role: "Junior Software Engineer<br/>Front-end Developer"
+        image: assets/img/team/karageorgopoulos.jpg
+        social:
+          - url: https://www.linkedin.com/in/apostolis-karageorgopoulos/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/tolisdotkarag
+            icon: fab fa-github
 
   contact:
     title: "Contact Us"

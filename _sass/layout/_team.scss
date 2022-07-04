@@ -8,9 +8,13 @@
     border: 7px solid fade-out($black, 0.9);
   }
   h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
+    margin-top: 14px;
+    margin-bottom: 8px;
     text-transform: none;
+    min-height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   p {
     margin-top: 0;
