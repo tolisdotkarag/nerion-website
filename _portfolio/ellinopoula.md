@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Ellinopoula
-  subtitle: Greek for kids - online learning platform
+  subtitle: Nerion helped us streamline our operations and discover bottlenecks and inefficiencies. This resulted in a extreme boost in income and cost savings for hours lost! Five stars!!!
   thumbnail: assets/img/portfolio/ellinopoula.jpg
 
 #what displays when the item is clicked:

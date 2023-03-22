@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Grapevine Digital
-  subtitle: No-code Workflow Management & Process Orchestration Platform
+  subtitle: These guys are the shit! They managed in a short amount of time to make sense of an extremely large codebase and provide maintenance. They also developed new features - front & back end - in record time, despite rapidly changing requirements. Extremely responsive and excellent professionals.
   thumbnail: assets/img/portfolio/grapevine.jpg
 
 #what displays when the item is clicked:
