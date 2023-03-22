@@ -73,8 +73,8 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: ""
-    body: "Nerion is all about passion. Passion for work, passion for creating. We are a mixture of experience with creativity, attention to detail and strong academic and business background, combined with our eagerness to deliver high quality products. This makes us a perfect fit for different clients, organizations and corporations that trust us to deliver bleeding edge technology solutions for various projects.
-           <br/>All of us here at Nerion, are trying to do our best every day to reach our goal: deliver high quality, bleeding edge technology solutions to our clients. We combine different technologies and stacks, with our strong academic background being what distinguishes us from our competitors. We are very proud and full of passion about what we do. That is, after all, what Nerion is all about."
+    body: "<b>International expertise, at affordable prices</b><br/><br />
+            Our team has been involved in multiple international projects. We are excellent communicators. Our team is based in Greece, an upcoming international technology hub. Our prices are relevant to the cost of living in Greece. Our clients have always found that the cost related to the quality of the end result is unmatched."
     section: about
 
   clients:
