@@ -16,6 +16,28 @@ en: &DEFAULT_EN
     button: Learn More
     buttonlink: "#services"
 
+  strengths:
+    title: ""
+    text: ""
+    section: strengths
+    subheader: "years of combined professional development & academic experience"
+    list:
+      - title: "Artificial Intelligence"
+        text: "Our team members are members of greek institutions at the fore-front of AI research. We can develop custom AI solutions or interace with existing AI APIs such as stable diffusion, whisper, chatgpt and more."
+        image: "assets/img/icons/artificial-intelligence-icon.png"
+      - title: "Devops & Server Needs"
+        text: "Our team members are responsible for maintaning infrastrucure that support thousands of daily users. We can help you setup cloud hosted or self-hosted server infrastructure."
+        image: "assets/img/icons/server-icon.png"
+      - title: "Web app & mobile app development"
+        text: "We have developed multiple web apps. We can build one for you and help you avoid pitfalls that will be costly down the line."
+        image: "assets/img/icons/web-dev-icon.png"
+      - title: "New features & maintenance of existing codebase"
+        text: "Our team is responsible for maintaining & updating multiple codebases that were not initially developed by us. We understand the issues and what is cost effective and can help you make the transition to our team."
+        image: "assets/img/icons/maintenance-icon.png"
+      - title: "IoT, smart home, hardware integration"
+        text: "We have developed multiple integrations with external APIs and can assist you in developing applications that interface with IoT devices."
+        image: "assets/img/icons/home-icon.png"
+
   workedon:
     title: "What we have worked on"
     text: ""
