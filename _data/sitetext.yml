@@ -16,22 +16,27 @@ en: &DEFAULT_EN
     button: Learn More
     buttonlink: "#services"
 
-  services:
-    title: "Services"
+  workedon:
+    title: "What we have worked on"
     text: ""
-    section: services
+    section: workedon
     list:
-      - title: "Software Development"
-        # desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        # icon: fas fa-laptop-code #find more at https://fontawesome.com/icons
-        image: "assets/img/icons/coding.png"
-      - title: "Machine Learning Solutions"
-        # desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        # icon: fas fa-laptop
-        image: "assets/img/icons/machine-learning.png"
-      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-      #   desc: "Your description here, full **Markdown** support"
-      #   icon: fab fa-markdown
+      - title: "Army"
+        image: "assets/img/icons/army-icon.png"
+      - title: "Gaming"
+        image: "assets/img/icons/gaming-icon.png"
+      - title: "Financial"
+        image: "assets/img/icons/financial-icon.png"
+      - title: "Healthcare"
+        image: "assets/img/icons/healthcare-icon.png"
+      - title: "IoT"
+        image: "assets/img/icons/iot-icon.png"
+      - title: "Telecoms"
+        image: "assets/img/icons/telecoms-icon.png"
+      - title: "Systems security"
+        image: "assets/img/icons/cyber-security-icon.png"
+      - title: "AI Research"
+        image: "assets/img/icons/ai-icon.png"
 
   portfolio:
     title: "Projects & Clients"
@@ -71,9 +76,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
+    title: "International expertise, at affordable prices"
     text: ""
-    body: "<b>International expertise, at affordable prices</b><br/><br />
+    body: "
             Our team has been involved in multiple international projects. We are excellent communicators. Our team is based in Greece, an upcoming international technology hub. Our prices are relevant to the cost of living in Greece. Our clients have always found that the cost related to the quality of the end result is unmatched."
     section: about
 
