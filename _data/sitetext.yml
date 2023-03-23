@@ -21,6 +21,7 @@ en: &DEFAULT_EN
     text: ""
     section: strengths
     subheader: "years of combined professional development & academic experience"
+    buttonText: "I want to contact you"
     list:
       - title: "Artificial Intelligence"
         text: "Our team members are members of greek institutions at the fore-front of AI research. We can develop custom AI solutions or interace with existing AI APIs such as stable diffusion, whisper, chatgpt and more."
@@ -42,6 +43,7 @@ en: &DEFAULT_EN
     title: "What we have worked on"
     text: ""
     section: workedon
+    buttonText: "I want to discuss my project"
     list:
       - title: "Army"
         image: "assets/img/icons/army-icon.png"
@@ -100,9 +102,9 @@ en: &DEFAULT_EN
   about:
     title: "International expertise, at affordable prices"
     text: ""
-    body: "
-            Our team has been involved in multiple international projects. We are excellent communicators. Our team is based in Greece, an upcoming international technology hub. Our prices are relevant to the cost of living in Greece. Our clients have always found that the cost related to the quality of the end result is unmatched."
+    body: "Our team has been involved in multiple international projects. We are excellent communicators. Our team is based in Greece, an upcoming international technology hub. Our prices are relevant to the cost of living in Greece. Our clients have always found that the cost related to the quality of the end result is unmatched."
     section: about
+    buttonText: "Please, contact me"
 
   clients:
     section: clients
@@ -168,6 +170,13 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/tolisdotkarag
             icon: fab fa-github
+
+  brochure:
+    title: "Get our brochure"
+    section: brochure
+    text: "Want to learn more about us? We will email you a brochure pdf explaining what we do and how we do it."
+    emailPlaceholder: "email"
+    buttonText: "I want to learn what you do & how you do it"
 
   contact:
     title: "Contact Us"
