@@ -32,8 +32,8 @@
   <!-- End Navigation -->
 
   <!-- Header -->
-  <header class="masthead">
-    <div class="container">
+  <header class="masthead d-flex flex-column flex-md-row">
+    <div class="container px-2">
       <div class="intro-text">
 	  {%- if site.data.sitetext[site.locale].header.title -%}
         <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
@@ -41,10 +41,42 @@
 	  {%- if site.data.sitetext[site.locale].header.text -%}
         <div class="intro-heading">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
-	  {%- endif -%}
       </div>
     </div>
+    <div class="container form-container" id="contactFormContainer">
+      <form class="form bg-light py-4 px-3 mt-md-5 mb-5 mb-md-0" id="contactForm">
+        <div class="container">
+          
+          <p class="text-muted">{{ site.data.sitetext[site.locale].header.formText }}</p>
+          <textarea required class="px-2 py-1" id ="message" placeholder="{{ site.data.sitetext[site.locale].header.textareaPlaceholder }}" id="message" ></textarea>
+          <p class="text-muted text-center w-75 mx-auto mb-4">{{ site.data.sitetext[site.locale].header.subtitle }}</p>
+        </div>
+          
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col-sm-6">
+              <input required id="first-name" placeholder="{{ site.data.sitetext[site.locale].header.firstNamePlaceholder }}" type="text" class="w-100 py-1 px-2 mb-sm-0 mb-3">
+            </div>
+            <div class="col-sm-6">
+              <input required id="last-name" placeholder="{{ site.data.sitetext[site.locale].header.lastNamePlaceholder }}" type="text" class="w-100 py-1 px-2">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <input id="email" type="email" placeholder="{{ site.data.sitetext[site.locale].header.emailPlaceholder }}" required class="w-100 py-1 px-2 mb-sm-0 mb-3">
+            </div>
+            <div class="col-sm-6">
+              <input id="phone" type="number" placeholder="{{ site.data.sitetext[site.locale].header.phonePlaceholder }}" class="w-100 py-1 px-2">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <button id="sendMessageButton" type="submit" class="btn w-100 btn-lg btn-primary mt-3 text-center">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+    
+
   </header>
   <!-- End Header -->

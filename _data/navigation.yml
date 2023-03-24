@@ -17,10 +17,6 @@ en: &DEFAULT_EN
       section: workedon
     - title: "Projects"
       section: portfolio
-    # - title: "Timeline"
-    #   section: timeline
-    - title: "Team"
-      section: team
     - title: "Contact"
       section: contact
 en-US:

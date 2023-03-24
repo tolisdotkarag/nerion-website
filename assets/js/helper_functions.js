@@ -44,3 +44,13 @@ if (isScrolledIntoView(obj) && !scrolled) {
     }
   }, "1000");
 }
+
+let directFormButtons = document.getElementsByClassName("go-to-form-btn");
+for (let btn of directFormButtons) {
+  btn.addEventListener('click', function() {
+    setTimeout( function() {
+
+      document.getElementById('message').focus();
+    }, 1000)
+  })
+}
