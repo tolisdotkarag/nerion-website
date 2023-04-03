@@ -52,8 +52,6 @@ en: &DEFAULT_EN
     section: workedon
     buttonText: "I want to discuss my project"
     list:
-      - title: "Army"
-        image: "assets/img/icons/army-icon.png"
       - title: "Gaming"
         image: "assets/img/icons/gaming-icon.png"
       - title: "Financial"
@@ -68,9 +66,11 @@ en: &DEFAULT_EN
         image: "assets/img/icons/cyber-security-icon.png"
       - title: "AI Research"
         image: "assets/img/icons/ai-icon.png"
+      - title: "Army"
+        image: "assets/img/icons/army-icon.png"
 
   portfolio:
-    title: "Projects & Clients"
+    title: "Testimonials"
     text: ""
     section: portfolio
     closebutton: "Visit Project"

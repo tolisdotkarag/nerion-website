@@ -35,16 +35,13 @@
   <header class="masthead d-flex flex-column flex-md-row">
     <div class="container px-2">
       <div class="intro-text">
-	  {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
-	  {%- endif -%}
+        <div class="intro-heading">
+          <span id="typedtext"></span>
+        </div>
       </div>
     </div>
     <div class="container form-container" id="contactFormContainer">
-      <form class="form bg-light py-4 px-3 mt-md-5 mb-5 mb-md-0" id="contactForm">
+      <form class="form py-4 px-3 " id="contactForm">
         <div class="container">
           
           <p class="text-muted">{{ site.data.sitetext[site.locale].header.formText }}</p>
