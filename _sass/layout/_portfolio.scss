@@ -5,10 +5,12 @@
     margin: 0 0 15px;
     .portfolio-link {
       position: relative;
-      display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+      img {
+        max-width: 60%
+      }
       .portfolio-hover {
         position: absolute;
         width: 100%;
@@ -41,11 +43,9 @@
       }
     }
     .portfolio-caption {
-      max-width: 400px;
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: $white;
       min-height: 135px;
       h4 {
         margin: 0;

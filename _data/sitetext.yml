@@ -15,26 +15,62 @@ en: &DEFAULT_EN
     text: You dream it, we develop IT
     button: Learn More
     buttonlink: "#services"
+    formText: "Describe what you are looking for, and we will get back to you with a quote."
+    subtitle: "tell us about your project, we will give the nurturing attention it requires, no matter how big or small it is"
+    textareaPlaceholder: "Describe your needs.&#10;Is this a new idea? What are its main elements?&#10;Are you looking for a partner to maintain your current infrastructure?&#10;Do you have a budget in mind?&#10;What about a timeframe?&#10;"
+    emailPlaceholder: "Email*"
+    phonePlaceholder: "Phone"
+    firstNamePlaceholder: "First name*"
+    lastNamePlaceholder: "Last name*"
 
-  services:
-    title: "Services"
+  strengths:
+    title: ""
     text: ""
-    section: services
+    section: strengths
+    subheader: "years of combined professional development & academic experience"
+    buttonText: "I want to contact you"
     list:
-      - title: "Software Development"
-        # desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        # icon: fas fa-laptop-code #find more at https://fontawesome.com/icons
-        image: "assets/img/icons/coding.png"
-      - title: "Machine Learning Solutions"
-        # desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        # icon: fas fa-laptop
-        image: "assets/img/icons/machine-learning.png"
-      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-      #   desc: "Your description here, full **Markdown** support"
-      #   icon: fab fa-markdown
+      - title: "Artificial Intelligence"
+        text: "Our team members are members of greek institutions at the fore-front of AI research. We can develop custom AI solutions or interace with existing AI APIs such as stable diffusion, whisper, chatgpt and more."
+        image: "assets/img/icons/artificial-intelligence-icon.png"
+      - title: "Devops & Server Needs"
+        text: "Our team members are responsible for maintaning infrastrucure that support thousands of daily users. We can help you setup cloud hosted or self-hosted server infrastructure."
+        image: "assets/img/icons/server-icon.png"
+      - title: "Web app & mobile app development"
+        text: "We have developed multiple web apps. We can build one for you and help you avoid pitfalls that will be costly down the line."
+        image: "assets/img/icons/web-dev-icon.png"
+      - title: "New features & maintenance of existing codebase"
+        text: "Our team is responsible for maintaining & updating multiple codebases that were not initially developed by us. We understand the issues and what is cost effective and can help you make the transition to our team."
+        image: "assets/img/icons/maintenance-icon.png"
+      - title: "IoT, smart home, hardware integration"
+        text: "We have developed multiple integrations with external APIs and can assist you in developing applications that interface with IoT devices."
+        image: "assets/img/icons/home-icon.png"
+
+  workedon:
+    title: "What we have worked on"
+    text: ""
+    section: workedon
+    buttonText: "I want to discuss my project"
+    list:
+      - title: "Gaming"
+        image: "assets/img/icons/gaming-icon.png"
+      - title: "Financial"
+        image: "assets/img/icons/financial-icon.png"
+      - title: "Healthcare"
+        image: "assets/img/icons/healthcare-icon.png"
+      - title: "IoT"
+        image: "assets/img/icons/iot-icon.png"
+      - title: "Telecoms"
+        image: "assets/img/icons/telecoms-icon.png"
+      - title: "Systems security"
+        image: "assets/img/icons/cyber-security-icon.png"
+      - title: "AI Research"
+        image: "assets/img/icons/ai-icon.png"
+      - title: "Army"
+        image: "assets/img/icons/army-icon.png"
 
   portfolio:
-    title: "Projects & Clients"
+    title: "Testimonials"
     text: ""
     section: portfolio
     closebutton: "Visit Project"
@@ -71,11 +107,11 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
+    title: "International expertise, at affordable prices"
     text: ""
-    body: "Nerion is all about passion. Passion for work, passion for creating. We are a mixture of experience with creativity, attention to detail and strong academic and business background, combined with our eagerness to deliver high quality products. This makes us a perfect fit for different clients, organizations and corporations that trust us to deliver bleeding edge technology solutions for various projects.
-           <br/>All of us here at Nerion, are trying to do our best every day to reach our goal: deliver high quality, bleeding edge technology solutions to our clients. We combine different technologies and stacks, with our strong academic background being what distinguishes us from our competitors. We are very proud and full of passion about what we do. That is, after all, what Nerion is all about."
+    body: "Our team has been involved in multiple international projects. We are excellent communicators. Our team is based in Greece, an upcoming international technology hub. Our prices are relevant to the cost of living in Greece. Our clients have always found that the cost related to the quality of the end result is unmatched."
     section: about
+    buttonText: "Please, contact me"
 
   clients:
     section: clients
@@ -141,6 +177,13 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/tolisdotkarag
             icon: fab fa-github
+
+  brochure:
+    title: "Get our brochure"
+    section: brochure
+    text: "Want to learn more about us? We will email you a brochure pdf explaining what we do and how we do it."
+    emailPlaceholder: "email"
+    buttonText: "I want to learn what you do & how you do it"
 
   contact:
     title: "Contact Us"

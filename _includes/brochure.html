@@ -1,0 +1,18 @@
+<section class="bg-light page-section pt-0" id="{{ site.data.sitetext[site.locale].brochure.section | default: "brochure" }}">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].brochure.title | default: "Get our brochure" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center d-flex flex-sm-row flex-column">
+        <div class="large text-muted mr-4 col-md-5">{{ site.data.sitetext[site.locale].brochure.text | markdownify }}</div>
+        <form class="col-md-7" id="brochure-form">
+          <input placeholder="{{site.data.sitetext[site.locale].brochure.emailPlaceholder}}" class="w-100 p-2" required id="brochure-email" type="email" name="brochureEmail">
+          <button class="mx-auto mt-3 btn btn-primary w-100 text-white cursor-pointer" type="submit">{{ site.data.sitetext[site.locale].brochure.buttonText }}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -44,4 +44,7 @@ section#contact {
     color: $gray-400;
     @include heading-font;
   }
+  .contact-text {
+    font-size: 19px;
+  }
 }

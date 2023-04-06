@@ -11,14 +11,14 @@ $(function() {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
 	  var url = "https://formspree.io/" + "{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}";
-      var name = $("input#name").val();
+      var firstName = $("input#first-name").val();
+      var lastName = $("input#last-name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var message = $("textarea#message").val();
-      var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
-        firstName = name.split(' ').slice(0, -1).join(' ');
+        firstName = firstName.split(' ').slice(0, -1).join(' ');
       }
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
@@ -27,7 +27,8 @@ $(function() {
         type: "POST",
 	dataType: "json",
         data: {
-          name: name,
+          firstName: firstName,
+          lastName: lastName,
           phone: phone,
           email: email,
           message: message
