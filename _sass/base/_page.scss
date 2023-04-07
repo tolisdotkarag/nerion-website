@@ -46,9 +46,12 @@ h6 {
     @include serif-font;
   }
 }
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
+@media (max-width: 768px) {
+  .page-section {
+    padding: 50px 0;
+    &#about{
+      padding-top: 100px;
+    }
   }
 }
 
