@@ -4,7 +4,7 @@
 
     <div class="d-flex flex-column align-items-center xp-section mb-5">
       <div class="col-md-6 col-md-8 col-xl-6 d-flex mt-2 flex-column flex-sm-row align-items-center align-items-sm-start mt-2">
-        <div class="mb-2 mr-5">
+        <div class="mb-2 mr-sm-5">
           <h2 class="number"><span id="increment-number">0</span>+</h2>
         </div>
         <div class="text-section text-center text-sm-left">
@@ -17,23 +17,23 @@
       {% if forloop.index0 == 0 or forloop.index0 == 2 or forloop.index0 == 4 %}
       <div class="col-md-8 col-xl-6 d-flex mt-2 flex-column flex-sm-row align-items-center align-items-sm-start">
         {% if strength.image %}
-        <div class="mb-2 mr-5">
+        <div class="mb-3 mb-sm-2 mr-sm-5">
           <img src="{{ strength.image }}" height="84" />
         </div>
         {% endif %}
         <div class="text-section text-center text-sm-left">
-          <h5 class="strength-heading">{{ strength.title | markdownify }}</h5>
-          {% if strength.text %}<div class="text-muted">{{ strength.text | markdownify }}</div>{% endif %}
+          <h5 class="strength-heading mb-2 mb-sm-0">{{ strength.title | markdownify }}</h5>
+          {% if strength.text %}<div class="text-muted mb-5 mb-sm-0 text-justify text-sm-left">{{ strength.text | markdownify }}</div>{% endif %}
         </div>
       </div>
       {% else %}
       <div class="col-md-8 col-xl-6 d-flex mt-2 flex-column-reverse flex-sm-row align-items-center align-items-sm-start">
         <div class="text-section text-center text-sm-left">
-          <h5 class="strength-heading">{{ strength.title | markdownify }}</h5>
-          {% if strength.text %}<div class="text-muted">{{ strength.text | markdownify }}</div>{% endif %}
+          <h5 class="strength-heading mb-2 mb-sm-0">{{ strength.title | markdownify }}</h5>
+          {% if strength.text %}<div class="text-muted mb-5 mb-sm-0 text-justify text-sm-left">{{ strength.text | markdownify }}</div>{% endif %}
         </div>
         {% if strength.image %}
-        <div class="mb-2 mr-5">
+        <div class="mb-3 mb-sm-2 mr-sm-5">
           <img src="{{ strength.image }}" height="84" />
         </div>
         {% endif %}

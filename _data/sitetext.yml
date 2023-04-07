@@ -66,8 +66,8 @@ en: &DEFAULT_EN
         image: "assets/img/icons/cyber-security-icon.png"
       - title: "AI Research"
         image: "assets/img/icons/ai-icon.png"
-      - title: "Army"
-        image: "assets/img/icons/army-icon.png"
+      - title: "Cultural Heritage"
+        image: "assets/img/icons/culture-icon.png"
 
   portfolio:
     title: "Testimonials"
