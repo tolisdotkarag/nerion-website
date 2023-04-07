@@ -22,15 +22,15 @@
         </div>
         {% endif %}
         <div class="text-section text-center text-sm-left">
-          <h5 class="strength-heading mb-2 mb-sm-0">{{ strength.title | markdownify }}</h5>
-          {% if strength.text %}<div class="text-muted mb-5 mb-sm-0 text-justify text-sm-left">{{ strength.text | markdownify }}</div>{% endif %}
+          <h5 class="strength-heading mb-2">{{ strength.title | markdownify }}</h5>
+          {% if strength.text %}<div class="text-muted mb-5 mb-sm-3 text-justify text-sm-left">{{ strength.text | markdownify }}</div>{% endif %}
         </div>
       </div>
       {% else %}
       <div class="col-md-8 col-xl-6 d-flex mt-2 flex-column-reverse flex-sm-row align-items-center align-items-sm-start">
         <div class="text-section text-center text-sm-left">
-          <h5 class="strength-heading mb-2 mb-sm-0">{{ strength.title | markdownify }}</h5>
-          {% if strength.text %}<div class="text-muted mb-5 mb-sm-0 text-justify text-sm-left">{{ strength.text | markdownify }}</div>{% endif %}
+          <h5 class="strength-heading mb-2">{{ strength.title | markdownify }}</h5>
+          {% if strength.text %}<div class="text-muted mb-5 mb-sm-3 text-justify text-sm-left">{{ strength.text | markdownify }}</div>{% endif %}
         </div>
         {% if strength.image %}
         <div class="mb-3 mb-sm-2 mr-sm-5">
