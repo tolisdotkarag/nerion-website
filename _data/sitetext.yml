@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     button: Learn More
     buttonlink: "#services"
     formText: "Describe what you are looking for, and we will get back to you with a quote."
-    subtitle: "tell us about your project, we will give the nurturing attention it requires, no matter how big or small it is"
+    subtitle: "*tell us about your project, we will give the nurturing attention it requires, no matter how big or small it is"
     textareaPlaceholder: "Describe your needs.&#10;Is this a new idea? What are its main elements?&#10;Are you looking for a partner to maintain your current infrastructure?&#10;Do you have a budget in mind?&#10;What about a timeframe?&#10;"
     emailPlaceholder: "Email*"
     phonePlaceholder: "Phone"
