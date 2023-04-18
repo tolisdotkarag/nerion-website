@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Ellinopoula
-  subtitle: Nerion helped us streamline our operations and discover bottlenecks and inefficiencies. This resulted in a extreme boost in income and cost savings for hours lost! Five stars!!!
+  subtitle: We have been working with the Nerion engineers for more than a year and we have had some major developments done in this time. We are very satisfied with them and I highly recommend them. Besides being very knowledgeable developers, they are true professionals, they deliver as promised and above all they have a positive, easy and pleasant attitude.
   thumbnail: assets/img/portfolio/ellinopoula.jpg
 
 #what displays when the item is clicked:
