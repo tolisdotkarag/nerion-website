@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Grapevine Digital
-  subtitle: These guys are the shit! They managed in a short amount of time to make sense of an extremely large codebase and provide maintenance. They also developed new features - front & back end - in record time, despite rapidly changing requirements. Extremely responsive and excellent professionals.
+  subtitle: We highly recommend Nerion for their exceptional software development services. Their team of experienced developers are highly skilled in delivering top-notch software solutions, while maintaining clear and open communication with us, ensuring that we're up-to-date on project progress and any potential roadblocks.
   thumbnail: assets/img/portfolio/grapevine.jpg
 
 #what displays when the item is clicked:
