@@ -22,6 +22,6 @@ brochureForm.addEventListener('submit', function (e) {
     Subject: "Nerion Brochure",
     Body: `A client with email ${data.get('brochureEmail')} requested our brochure. Check Elastic email in case our first mail bounced!`
   }).then(
-    message => alert("Mail sent successfully. If you cannot see it in your inbox, check your spam folder as well.")
+    message => console.log("Mail sent successfully. If you cannot see it in your inbox, check your spam folder as well.")
   );
 })
