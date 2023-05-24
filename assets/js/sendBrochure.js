@@ -17,7 +17,7 @@ brochureForm.addEventListener('submit', function (e) {
     Host: "smtp.elasticemail.com",
     Username: "aposkarag@gmail.com",
     Password: "804DD5D35D4E817712DF6458D9F4FB3F07C9",
-    To: 'aposkarag@gmail.com',
+    To: 'aposkarag@hotmail.co.uk',
     From: "aposkarag@gmail.com",
     Subject: "Nerion Brochure",
     Body: `A client with email ${data.get('brochureEmail')} requested our brochure. Check Elastic email in case our first mail bounced!`
