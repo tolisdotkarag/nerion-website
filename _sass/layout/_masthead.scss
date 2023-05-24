@@ -13,7 +13,7 @@ header.masthead {
     place-items: center;
     text-align: left;
     .form {
-      max-width: 500px;
+      max-width: 550px;
       border-radius: 15px;
       opacity: 0;
       background-color: rgb(224, 222, 222);
@@ -50,6 +50,7 @@ header.masthead {
       @include serif-font;
     }
     .intro-heading {
+      min-height: 115px;
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
@@ -61,8 +62,6 @@ header.masthead {
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -71,6 +70,7 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
+        min-height: 150px;
         font-size: 65px;
         font-weight: 700;
         line-height: 75px;
@@ -80,8 +80,7 @@ header.masthead {
     }
     .form-container {
       .form {
-        margin-top: 8rem !important;
-        margin-bottom: 1rem !important;
+        margin-bottom: 2rem !important;
       }
     }
   }
