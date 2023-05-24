@@ -107,7 +107,7 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "International expertise, at affordable prices"
+    title: "International expertise<br /> at affordable prices"
     text: ""
     body: "Our team has been involved in multiple international projects. We are excellent communicators. Our team is based in Greece, an upcoming international technology hub. Our prices are relevant to the cost of living in Greece. Our clients have always found that the cost related to the quality of the end result is unmatched."
     section: about
